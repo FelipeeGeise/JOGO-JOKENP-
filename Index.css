@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("https://source.unsplash.com/1600x900/?landescape");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+.container {
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: rgb(243, 231, 210);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 80px;
+  cursor: pointer;
+  border: none;
+  margin: 20px 20px;
+  border-radius: 15px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+.pedra {
+  background-color: rgb(114, 19, 202);
+}
+
+.papel {
+  background-color: greenyellow;
+}
+.tesoura {
+  background-color: rgb(7, 187, 242);
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.paragrafo-um span {
+  color: blue;
+}
+
+.paragrafo-dois span {
+  color: red;
+}
+
+.result {
+    background-color: yellow;
+}
